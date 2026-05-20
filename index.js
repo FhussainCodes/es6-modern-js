@@ -141,8 +141,8 @@ async function getJsonData() {
         let response = await data.json();
         // console.log(response);
         let final_data = response.map((value)=>{
-            // return value.userId;s
-            return value.title;
+            return value.userId;
+            // return value.title;
         })
         console.log(final_data);
         
